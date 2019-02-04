@@ -80,7 +80,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Ayhan Dis**  - [Ayhan Dis](https://github.com/ayhandis)
+* **Ayhan Dis**  - [Github](https://github.com/ayhandis) - [Linkedin](https://www.linkedin.com/in/ayhandis/)  - disayhan@gmail.com
 
 ## License
 
