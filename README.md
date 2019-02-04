@@ -41,7 +41,7 @@ Give an example
 
 ## Bug Fixes
 
-please inform me via the e-mail address in the Author section for the errors encountered in the use of the package.
+Please inform me via the e-mail address in the Author section for the errors encountered in the use of the package.
 
 ## Author
 
