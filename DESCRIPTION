@@ -1,10 +1,10 @@
 Package: creditR
 Type: Package
-Title: A Credit Risk Scoring Modeling and Validation Package
+Title: A Credit Risk Scoring and Validation Package
 Version: 0.1.0
 Author: Ayhan Dis
 Maintainer: Ayhan Dis <ayhandis@gmail.com>
-Description: A Credit Risk Scoring Modeling and Validation Package. This package covers R functions related to the applications used in credit risk scoring. The package includes variable analysis, variable selection, model development, model calibration, rating scale and model validation methods. Through defined functions, methodologies can be applied quickly for all modeling data or a specific variable.
+Description: A Credit Risk Scoring and Validation Package. This package covers R functions related to the applications used in credit risk scoring. The package includes variable analysis, variable selection, model development, model calibration, rating scale and model validation methods. Through defined functions, methodologies can be applied quickly for all modeling data or a specific variable.
 Depends: R (>= 3.5.0), magrittr, woeBinning, cluster, MLmetrics
 Imports: magrittr, woeBinning, cluster, MLmetrics
 License: GPL-2
