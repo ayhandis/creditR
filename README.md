@@ -41,7 +41,7 @@ Give an example
 
 ## Bug Fixes
 
-Please inform me via the e-mail address in the Author section for the errors encountered in the use of the package.
+Please inform me via e-mail that shared in the Author section for the errors encountered in the use of the package.
 
 ## Author
 
@@ -49,7 +49,7 @@ Please inform me via the e-mail address in the Author section for the errors enc
 
 ## License
 
-This project is licensed under the GPL-2 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL-2 - See the [LICENSE.md](LICENSE.md) file for details
 
 ### Built With
 
