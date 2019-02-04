@@ -7,16 +7,16 @@ In order to install the creditR package, devtools package must also be installed
 ```
 install.packages("devtools", dependencies = TRUE) 
 ```
+
 ### Getting Started
 Run the devtools package in the R environment.Then you can install the creditR package with the help of install_github code.
-
 ```
 library(devtools)
 install_github("ayhandis/creditR)
 library(creditR)
 ```
-#### A List of Functions
 
+### A List of Functions
 The list of functions available under the package is shared below.
 
  [1] "Adjusted.Binomial.test"              "Adjusted.Herfindahl.Hirschman.Index" "Anchor.point"                       
@@ -32,52 +32,16 @@ The list of functions available under the package is shared below.
 [31] "variable.clustering.gini"            "vif.calc"                            "woe.get.clear.data"                 
 [34] "woe.glm.feature.importance"          "woe.table.calc"
 
-
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+### An Application of the Package
+An example application of the package is shared below. It is just a study of how functions can be applied.
 
 ```
 Give an example
 ```
 
-### And coding style tests
+## Bug Fixes
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [R](https://cran.r-project.org/)
-* [R Studio](https://www.rstudio.com/) 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+please inform me via the e-mail address in the Author section for the errors encountered in the use of the package.
 
 ## Author
 
@@ -87,8 +51,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 This project is licensed under the GPL-2 - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+### Built With
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [R](https://cran.r-project.org/)
+* [R Studio](https://www.rstudio.com/) 
