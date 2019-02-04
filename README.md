@@ -16,13 +16,22 @@ library(creditR)
 ```
 #### A List of Functions
 
-A step by step series of examples that tell you how to get a development env running
+The list of functions available under the package is shared below.
 
-Say what the step will be
+ [1] "Adjusted.Binomial.test"              "Adjusted.Herfindahl.Hirschman.Index" "Anchor.point"                       
+ [4] "bayesian.calibration"                "Binomial.test"                       "chisquare.test"                     
+ [7] "correlation.cluster"                 "Gini.univariate"                     "Gini.univariate.data"               
+[10] "Gini_elimination"                    "Herfindahl.Hirschman.Index"          "IV.calc"                            
+[13] "IV.calc.data"                        "IV_elimination"                      "k.fold.cross.validation.glm"        
+[16] "Kolmogorov.Smirnov"                  "master.scale"                        "missing_elimination"                
+[19] "missing_ratio"                       "na_checker"                          "na_filler_contvar"                  
+[22] "PSI.calc"                            "PSI.calc.data"                       "regression.calibration"             
+[25] "scaled.score"                        "SSI.calc"                            "SSI.calc.data"                      
+[28] "train_test_balanced_split"           "train_test_split"                    "variable.clustering"                
+[31] "variable.clustering.gini"            "vif.calc"                            "woe.get.clear.data"                 
+[34] "woe.glm.feature.importance"          "woe.table.calc"
 
-```
-Give the example
-```
+
 
 And repeat
 
