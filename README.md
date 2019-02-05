@@ -38,7 +38,8 @@ ls("package:creditR")
 An example application of the package is shared below. It is just a study of how functions can be applied.
 
 ```
-#This R script is designed to make the creditR package easier to understand. Within the scope of the study, it was not aimed to obtain a model.It is only instructive.
+#This R script is designed to make the creditR package easier to understand.
+#Within the scope of the study, it was not aimed to obtain a  high accuracy model.
 
 #Attaching the library
 library(creditR)
