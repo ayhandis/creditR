@@ -1,7 +1,7 @@
 # creditR
 ## A Credit Risk Scoring and Validation Package
 
-This package covers R functions related to the applications used in credit risk scoring. The package includes variable analysis, variable selection, model development, model calibration, rating scale and model validation methods. Through defined functions, methodologies can be applied quickly on all modeling data or a specific variable.The package was issued for the use of credit risk professionals. For the use of the package, basic level knowledge about credit risk scoring methodologies is required.
+This package covers R functions related to the applications used in credit risk scoring. The package includes variable analysis, variable selection, model development, model calibration, rating scale and model validation methods. Through defined functions, methodologies can be applied quickly on all modeling data or a specific variable.The package was issued for the use of credit risk professionals. Basic level knowledge about credit risk scoring methodologies is required for use of the package.
 ### Prerequisites
 In order to install the creditR package, devtools package must also be installed. You should run the following code to install the devtools package.
 ```
