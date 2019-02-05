@@ -39,7 +39,7 @@ An example application of the package is shared below. It is just a study of how
 
 ```
 #This R script is designed to make the creditR package easier to understand.
-#Within the scope of the study, it was not aimed to obtain a  high accuracy model.
+#Within the scope of the study, it was not aimed to obtain a high accuracy model.
 
 #Attaching the library
 library(creditR)
