@@ -12,7 +12,7 @@
 #' @examples
 #' correlation.cluster(my_data,clustering_output, "variable_names","Groups")
 
-correlation_cluster <- function(data, clustering_data, variables, clusters){
+correlation.cluster <- function(data, clustering_data, variables, clusters){
   number_cluster <- which( colnames(clustering_data)==clusters)
   number_variables <- which( colnames(clustering_data)==variables)
   cluster_v <- matrix(data=NA,nrow=1,ncol=length(unique(clustering_data[,clusters])))
