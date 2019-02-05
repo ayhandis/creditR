@@ -1,7 +1,7 @@
 # creditR
 ## A Credit Risk Scoring and Validation Package
 
-This package covers R functions related to the applications used in credit risk scoring. The package includes variable analysis, variable selection, model development, model calibration, rating scale and model validation methods. Through defined functions, methodologies can be applied quickly for all modeling data or a specific variable.The package was issued for the use of credit risk professionals. For the use of the package, basic level knowledge about credit risk scoring methodologies is required.
+This package covers R functions related to the applications used in credit risk scoring. The package includes variable analysis, variable selection, model development, model calibration, rating scale and model validation methods. Through defined functions, methodologies can be applied quickly on all modeling data or a specific variable.The package was issued for the use of credit risk professionals. For the use of the package, basic level knowledge about credit risk scoring methodologies is required.
 ### Prerequisites
 In order to install the creditR package, devtools package must also be installed. You should run the following code to install the devtools package.
 ```
@@ -19,17 +19,20 @@ library(creditR)
 ### A List of Functions
 The list of functions available under the package is shared below.
 
- [1] "Adjusted.Binomial.test"              "Adjusted.Herfindahl.Hirschman.Index" "Anchor.point"                       
- [4] "bayesian.calibration"                "Binomial.test"                       "chisquare.test"                     
- [7] "correlation.cluster"                 "Gini.univariate"                     "Gini.univariate.data"               
-[10] "Gini_elimination"                    "Herfindahl.Hirschman.Index"          "IV.calc"                            
-[13] "IV.calc.data"                        "IV_elimination"                      "k.fold.cross.validation.glm"        
-[16] "Kolmogorov.Smirnov"                  "master.scale"                        "missing_elimination"                
-[19] "missing_ratio"                       "na_checker"                          "na_filler_contvar"                  
-[22] "PSI.calc"                            "PSI.calc.data"                       "regression.calibration"             
-[25] "scaled.score"                        "SSI.calc"                            "SSI.calc.data"                      
-[28] "train_test_balanced_split"           "train_test_split"                    "variable.clustering"                
-[31] "variable.clustering.gini"            "vif.calc"                            "woe.get.clear.data"                 
+* Adjusted.Binomial.test                                                        * master.scale            * scaled.score
+* Adjusted.Herfindahl.Hirschman.Index        * Gini_elimination                 * missing_elimination     * SSI.calc
+* Anchor.point                               * Herfindahl.Hirschman.Index       * missing_ratio           * SSI.calc.data
+* bayesian.calibration                       * IV.calc                          * na_checker              * train_test_balanced_split
+* Binomial.test                              * IV.calc.data                     * na_filler_contvar       * train_test_split
+* chisquare.test                             * IV_elimination                   * PSI.calc                * variable.clustering
+* correlation.cluster                        * k.fold.cross.validation.glm      * PSI.calc.data           * variable.clustering.gini
+* Gini.univariate                            * Kolmogorov.Smirnov               * regression.calibration  * vif.calc
+* Gini.univariate.data             
+
+
+
+         
+                                 "woe.get.clear.data"                
 [34] "woe.glm.feature.importance"          "woe.table.calc"
 
 ### An Application of the Package
