@@ -149,7 +149,7 @@ Herfindahl.Hirschman.Index(master_scale,"Total.Observations")
 #Performing the Anchor point test.
 Anchor.point(master_scale,"PD","Total.Observations",0.30)
 
-#The chisquared test is applied on the master scale.
+#The Chi-square test is applied on the master scale.
 chisquare.test(master_scale,"PD","Bad.Count","Total.Observations",0.90)
 
 #The Binomial test is applied on the master scale.
