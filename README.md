@@ -80,7 +80,7 @@ test_woe <- woe.get.clear.data(test_woe,default_flag = "creditability",prefix = 
 IV.calc.data(train_woe,"creditability")
 Gini.univariate.data(train_woe,"creditability")
 
-#Creating a new dataset by Gini elimination.IV elimination is also possible.
+#Creating a new dataset by Gini elimination. IV elimination is also possible.
 eliminated_data <- Gini_elimination(train_woe,"creditability",0.10)
 str(eliminated_data)
 
