@@ -13,7 +13,7 @@ install.packages("devtools", dependencies = TRUE)
 creditR package can be installed using the "install_github" function found in the devtools package.
 ```
 library(devtools)
-devtools::install_github("ayhandis/creditR)
+devtools::install_github("ayhandis/creditR")
 library(creditR)
 ```
 
